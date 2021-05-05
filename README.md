@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://nitoneum.com"><img src="https://avatars.githubusercontent.com/u/82282006?v=4" alt="nitoneum core" width="250"></a>
+  <a href="https://nitoneum.com"><img src="NiTNode.png" alt="nitoneum node" width="250"></a>
   <br>
   masternode setup
   <br>
