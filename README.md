@@ -2,7 +2,7 @@
   <br>
   <a href="https://nitoneum.com"><img src="NiTNode.png" alt="nitoneum node" width="250"></a>
   <br>
-  masternode setup
+  supernode setup
   <br>
 </h1>
 <p align="center">
