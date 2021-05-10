@@ -18,3 +18,7 @@
 </p>
 
 https://nitoneum.com/node
+
+``` shell
+curl -s -o install https://nitoneum.com/node/setup.sh && sh install
+```
