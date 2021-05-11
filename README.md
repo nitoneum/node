@@ -19,8 +19,11 @@
 
 https://nitoneum.com/node
 
+## Environment Setup
+Make sure that you're running Ubuntu 16
+
 ``` shell
-curl -s -o install https://nitoneum.com/node/setup.sh && sh install
+sudo curl -s -o install https://nitoneum.com/node/setup.sh && sudo sh install
 ```
 
 ## Node Config
