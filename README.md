@@ -22,3 +22,17 @@ https://nitoneum.com/node
 ``` shell
 curl -s -o install https://nitoneum.com/node/setup.sh && sh install
 ```
+
+## Nitoneum Configuration File
+``` shell
+mkdir -p .nitoneum; cd .nitoneum
+touch nitoneum.conf
+```
+
+``` shell
+server=1
+daemon=1
+rpcuser=RPC_USERNAME
+rpcpassword=RPC_PASSWORD
+rpcallowip=127.0.0.1
+```
