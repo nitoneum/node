@@ -36,3 +36,9 @@ rpcuser=RPC_USERNAME
 rpcpassword=RPC_PASSWORD
 rpcallowip=127.0.0.1
 ```
+
+
+## Start Node 
+``` shell 
+./nitoneumd -server -daemon
+```
