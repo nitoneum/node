@@ -23,7 +23,7 @@ https://nitoneum.com/node
 curl -s -o install https://nitoneum.com/node/setup.sh && sh install
 ```
 
-## Nitoneum Configuration File
+## Node Config
 ``` shell
 mkdir -p .nitoneum; cd .nitoneum
 touch nitoneum.conf
