@@ -27,10 +27,15 @@ sudo curl -s -o install https://nitoneum.com/node/setup.sh && sudo sh install
 ```
 
 ## Node Config
+First create the `.nitoneum` folder in your home directory. You can copy and paste the following two lines below to create the folder and configuration file.
 ``` shell
 mkdir -p .nitoneum; cd .nitoneum
 touch nitoneum.conf
 ```
+Use your favorite text editor eg. `vi`, `vim` or in this case `nano`.
+<p align="center">
+<img alt="Node Config" src="nanoconfig.png">
+</p> 
 
 ``` shell
 server=1
@@ -39,9 +44,10 @@ rpcuser=RPC_USERNAME
 rpcpassword=RPC_PASSWORD
 rpcallowip=127.0.0.1
 ```
-
+Save the file and exit.
 
 ## Start Node 
 ``` shell 
 ./nitoneumd -server -daemon
 ```
+
