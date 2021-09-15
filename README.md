@@ -46,20 +46,15 @@ rpcallowip=127.0.0.1
 ```
 Save the file and exit.
 
-### Start Node 
-``` shell 
-sudo ./node/run
-```
-### Stop Node 
-``` shell 
-sudo ./node/stop
-```
-### Reload Node 
-``` shell 
-sudo ./node/reload
-```
+### Node 
 
-### Updating Node 
 ``` shell 
+# Start
+sudo ./node/run
+# Stop 
+sudo ./node/stop
+# Reload
+sudo ./node/reload
+# Check for and update 
 sudo ./node/run update
 ```
