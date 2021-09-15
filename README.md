@@ -46,8 +46,20 @@ rpcallowip=127.0.0.1
 ```
 Save the file and exit.
 
-## Start Node 
+### Start Node 
 ``` shell 
-./nitoneumd -server -daemon
+sudo ./node/run
+```
+### Stop Node 
+``` shell 
+sudo ./node/stop
+```
+### Reload Node 
+``` shell 
+sudo ./node/reload
 ```
 
+### Updating Node 
+``` shell 
+sudo ./node/run update
+```
